@@ -40,6 +40,6 @@ Las instrucciones de como funciona cada parte se encuentran comentadas en el có
 ### Fuentes
 
 [Entity Framework 6 - Tutorial](https://www.entityframeworktutorial.net/code-first/database-initialization-in-code-first.aspx)<br>
-[Entity Framework - ABM](https://www.learnentityframeworkcore.com/dbcontext/adding-data)
+[Entity Framework - ABM](https://www.learnentityframeworkcore.com/dbcontext/adding-data)<br>
 [Consigna del ejercicio](https://docs.google.com/document/d/1giXxG78c4Hb9OO5VzccLew9QRyhyUPzAEsPS0cqPkMI/edit?usp=sharing)<br>
 (y otras 20 páginas distintas más que visite pero no suman tanto)
