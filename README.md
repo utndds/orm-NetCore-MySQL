@@ -33,10 +33,10 @@ Las instrucciones de como funciona cada parte se encuentran comentadas en el có
 
 ### Fuentes
 
-- Para proyecto .NET Framework
-[Guia de Entity Framework Core](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)
+- Para proyecto .NET Framework<br>
+[Guia de Entity Framework Core](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)<br>
 [Entity Framework 6 con MySQL](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework60.html)<br>
 
-- Para proyecto .NET Core
-[Guia de Entity Framework Core](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx)
+- Para proyecto .NET Core<br>
+[Guia de Entity Framework Core](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx)<br>
 [Entity Framework Core con MySQL](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework-core.html)<br>
