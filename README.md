@@ -5,7 +5,7 @@ Hay muchas cosas por explicar que tratare de resumirlas en este documento.
 
 Primero el proyecto es una aplicación consola hecha con .NET Core (si el proyecto de ustedes es .NET Framework difiere en los paquetes a instalar y por ende en algunos métodos y configuraciones). Tienen la opción de migrar su proyecto a .NET Core creando un proyecto nuevo y copiando/pegando clases...
 
-Tambien hay que distinguir que existen los ORM y los módulos de conexión a bases de datos, siendo que en este ejemplo (.NET Core) estamos usando los paquetes Nugget:
+Tambien hay que distinguir que existen los ORM y los módulos de conexión a bases de datos, siendo que en este ejemplo (.NET Core) estamos usando los <ins>paquetes Nugget:</ins>
 
 - **Microsoft.EntityFrameworkCore** como ORM
 - **MySql.Data.EntityFrameworkCore** como módulo conector entre el ORM y el motor MySQL
