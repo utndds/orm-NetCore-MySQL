@@ -2,13 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace orm.Modelo
+namespace ORM_MySQL.Modelo
 {
-
     // Asociación con tabla posts
     [Table("posts")]
     class Post
@@ -27,8 +24,11 @@ namespace orm.Modelo
         [Column("usuario_id")]
         // Esta seria la FK a usuario
         public int creador_id { get; set; }
+
         // Este es el objeto usuario al que se relaciona el post
+        // Relacion hecha con Fluent API en DB.cs
         public Usuario creador { get; set; }
 
     }
+
 }

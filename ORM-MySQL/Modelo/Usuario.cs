@@ -2,13 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace orm.Modelo
+namespace ORM_MySQL.Modelo
 {
-
     // Asociación con tabla usuarios
     [Table("usuarios")]
     class Usuario
@@ -29,6 +26,7 @@ namespace orm.Modelo
         public string email { get; set; }
 
         // Relacion contra muchos posts
+        // Relacion hecha con Fluent API en DB.cs
         public List<Post> posts { get; set; }
 
     }
