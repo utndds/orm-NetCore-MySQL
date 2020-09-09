@@ -34,7 +34,7 @@ Las instrucciones de como funciona cada parte se encuentran comentadas en el có
 ### Fuentes
 
 - Para proyecto .NET Framework<br>
-[Guia de Entity Framework Core](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)<br>
+[Guia de Entity Framework 6](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)<br>
 [Entity Framework 6 con MySQL](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework60.html)<br>
 
 - Para proyecto .NET Core<br>
