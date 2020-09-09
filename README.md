@@ -34,9 +34,12 @@ Las instrucciones de como funciona cada parte se encuentran comentadas en el có
 ### Fuentes
 
 - Para proyecto .NET Framework<br>
-[Guia de Entity Framework 6](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)<br>
+[Tutorial inicial de Entity Framework 6](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)<br>
 [Entity Framework 6 con MySQL](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework60.html)<br>
+[Documentacion posta de EF6](https://docs.microsoft.com/en-us/ef/ef6/)
 
 - Para proyecto .NET Core<br>
-[Guia de Entity Framework Core](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx)<br>
+[Tutorial inicial de Entity Framework Core](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx)<br>
 [Entity Framework Core con MySQL](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework-core.html)<br>
+[Documentacion posta de EF Core](https://docs.microsoft.com/en-us/ef/core/)
+
