@@ -44,7 +44,7 @@ CREATE TABLE `posts` (
 
 DROP TABLE IF EXISTS `usuarios`;
 CREATE TABLE `usuarios` (
-  `usuario_id` bigint(20) UNSIGNED NOT NULL,
+  `usuario_id` int(11) NOT NULL,
   `nombre` varchar(50) NOT NULL,
   `email` varchar(355) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -64,9 +64,7 @@ ALTER TABLE `posts`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`usuario_id`),
-  ADD UNIQUE KEY `nombre` (`nombre`),
-  ADD UNIQUE KEY `email` (`email`);
-
+  
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
@@ -81,7 +79,7 @@ ALTER TABLE `posts`
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `usuario_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `usuario_id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

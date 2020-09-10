@@ -3,7 +3,7 @@
 
 Hay muchas cosas por explicar que tratare de resumirlas en este documento.
 
-Primero el proyecto es una aplicación consola hecha con .NET Core (si el proyecto de ustedes es .NET Framework difiere en los paquetes a instalar y por ende en algunos métodos y configuraciones). Tienen la opción de migrar su proyecto a .NET Core creando un proyecto nuevo y copiando/pegando clases...
+Primero el proyecto es una aplicación consola hecha con .NET Core (si el proyecto de ustedes es .NET Framework difiere en los paquetes a instalar y por ende en algunos métodos y configuraciones). Para .NET Framework usen este [repo de guía](https://github.com/cd-educ/orm-NetFrame-MySql) 
 
 Tambien hay que distinguir que existen los ORM y los módulos de conexión a bases de datos, siendo que en este ejemplo (.NET Core) estamos usando los <ins>paquetes Nugget:</ins>
 
@@ -33,12 +33,6 @@ Las instrucciones de como funciona cada parte se encuentran comentadas en el có
 
 ### Fuentes
 
-- Para proyecto .NET Framework<br>
-[Tutorial inicial de Entity Framework 6](https://www.entityframeworktutorial.net/code-first/what-is-code-first.aspx)<br>
-[Entity Framework 6 con MySQL](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework60.html)<br>
-[Documentacion posta de EF6](https://docs.microsoft.com/en-us/ef/ef6/)
-
-- Para proyecto .NET Core<br>
 [Tutorial inicial de Entity Framework Core](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx)<br>
 [Entity Framework Core con MySQL](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework-core.html)<br>
 [Documentacion posta de EF Core](https://docs.microsoft.com/en-us/ef/core/)
