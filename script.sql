@@ -64,9 +64,7 @@ ALTER TABLE `posts`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`usuario_id`),
-  ADD UNIQUE KEY `nombre` (`nombre`),
-  ADD UNIQUE KEY `email` (`email`);
-
+  
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
